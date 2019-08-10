@@ -1,0 +1,20 @@
+/* selected tag{
+    property: value;
+} */
+
+h1{
+    color: dodgerblue;
+}
+
+li{
+    color: rgb(24, 181, 64);
+}
+
+p{
+    color: #446ec2;
+}
+
+/* a : alpha => cang cao thi cang ro, cang thap thi cang mo` */
+h4{
+    color: rgba(24, 181, 64, 0.5)
+}

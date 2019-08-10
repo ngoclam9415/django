@@ -1,0 +1,19 @@
+body{
+    background: url(https://scontent.fsgn5-7.fna.fbcdn.net/v/t1.0-9/53267036_2020981771353457_1782954225806868480_n.jpg?_nc_cat=101&_nc_oc=AQlxhvIQeu-DjUBeKJLWy2da2thDEjJ4NnvphhUQWOG-ZsP2DYpHLfVHHoH2y1I138c&_nc_ht=scontent.fsgn5-7.fna&oh=329a17e1f40c51353ade927ffb5b44d2&oe=5DA3201A);
+    background-repeat: no-repeat;
+}
+
+div{
+    background-color: blanchedalmond;
+    border-color: blue;
+    border-width: 5px;
+    border-style: double;
+}
+
+p{
+    color: chocolate
+}
+
+span{
+    background: greenyellow;
+}
