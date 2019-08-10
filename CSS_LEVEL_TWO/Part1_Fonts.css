@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Beth Ellen', cursive;
+    color: aqua;
+    text-align: center
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* 1em = 16px  In which 16px is the default fontsize of Body
+2em = 32px */
+body{
+    font-size: 20px;
+}
+
+/* In this situation, the font-size of the body is 20 => 2em is 2*20 = 40px */
+#two{
+    font-family: 'KaushanScriptRegular';
+    color : chocolate;
+    font-size : 2.0em;
+}
+
