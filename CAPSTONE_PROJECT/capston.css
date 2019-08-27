@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(42, 42, 65);
+    border: cadetblue solid 10em;
+    border-top: 0em;
+    /* border-bottom: 0em; */
+    margin-left: 0em;
+    margin-right: 0em;
+    text-align: center;
+}
+
+h1{
+    border-bottom: solid 0.1em  rgb(42, 42, 65);
+    color: antiquewhite
+}
+h2{
+    border-bottom: solid 0.1em  rgb(42, 42, 65);
+    color: antiquewhite
+}
+
+p{
+    border-left: solid 10em rgb(42, 42, 65);
+    border-right: solid 10em rgb(42, 42, 65);
+    color: antiquewhite;
+    margin-bottom: 0%;
+}
+
+.inputbutton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
