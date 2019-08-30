@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Micro Services</h1>
-    <h2>Kiến trúc cổ điển Monolith</h2>
+    <h2>Kiến trúc khối Monolith</h2>
     <p>
         Toàn bộ các module (face-antispoofing, detecting, feature extracting, matching, database) đều được gom chung vào một project lớn. Khi deploy, engineer nhà mình sẽ ném khối code này lên server và config để nó chạy.
     </p>
@@ -17,6 +17,12 @@
         <ul>
             <li>Đơn giản</li>
             <li>Dễ code</li>
+        </ul>
+        Nhược điểm
+        <ul>
+            <li>Khó nâng cấp</li>
+            <li>Khó scale</li>
+            <li>Phải chạy lại toàn bộ khi update</li>
         </ul>
     </p>
 </body>

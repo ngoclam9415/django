@@ -1,0 +1,23 @@
+syntax = "proto3";
+package object_detection;
+
+service ObjectDetectionProcessingService{
+   //ObjectDetectionProcess la giao thuc ma gRPC client se truyen toi gRPC server
+   //ArrayImage la dinh nghia cua requested input voi cac element : Image_bytes, Image_shape, Image_type
+   //ObjectDetectResult la dinh nghia cua responded output voi cac element :objects_bbs, objects_bbs_shape, objects_bbs_type, labels
+    rpc ObjectDetectionProcess (ArrayImage) returns (ObjectDetectResult) {}
+}
+
+message ArrayImage {
+    bytes Image_bytes = 1;
+    repeated int32 Image_shape = 2;//gRPC khong co data type list hay tuple, tuy nhien ta co the bieu dien 1 array duoi dang repeat cua 1 type nao do
+    string Image_type = 3;         //O day, Image_shape se duoc hieu la 1 tap hop cac data dang int32
+}
+
+message ObjectDetectResult {
+    bytes objects_bbs = 1;
+    repeated int32 objects_bbs_shape = 2;
+    string objects_bbs_type = 3;
+    repeated string labels = 4;     //O day, labels se duoc hieu la 1 tap hop cac data dang string
+}
+
