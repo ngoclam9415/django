@@ -15,8 +15,8 @@ class grid_info{
         this.state = 0;
         this.item = document.querySelector("#" + id);
         let self = this;
-        this.item.addEventListener("dblclick", function(){self.change_state();}, false) // this is a closure to keep scope of EventListener linked to this scope
-    }
+        this.item.addEventListener("dblclick", function(){self.change_state();}, false) // this is a closure to keep scope of EventListener linked to this class scope
+    }                                                                 // if we dont put self = this, the context will be this.item context, not class context
 
     change_state(){
         // console.log(this.state  < 2 ? this.state + 1 : 0)
