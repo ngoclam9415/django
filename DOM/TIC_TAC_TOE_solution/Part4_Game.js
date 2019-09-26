@@ -33,9 +33,3 @@ function changeMarker(){
 for (var i = 0; i < squares.length; i++) {
     squares[i].addEventListener('click', changeMarker); // this now have context equivalent to squares[i] context
 }
-def create_class():
-    private = {"id":"eyeq","pass":"eyeqtech"}
-    class A:
-        def is_qualified(self, id, pwd):
-            return id==private["id"] and pwd==private["pass"]
-    return A

@@ -1,0 +1,34 @@
+#new {
+    width: 28vw;
+}
+
+td {
+width: 14%;
+position: relative;
+}
+
+td:after {
+content: '';
+display: block;
+margin-top: 100%;
+}
+
+td .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background: gold; */
+    text-align:center;
+    font-size: 2vw;
+}
+
+#circle {
+    width: 100%;
+    height: 100%;
+    border: 0.5vw solid black;  
+    border-radius: 50%;
+    background: gray;
+  }
+
